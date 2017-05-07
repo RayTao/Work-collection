@@ -4,6 +4,15 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 992px) {
+  .logo-title {
+    display: none;
+  }
+  #header-title {
+    text-align: center;
+  }
+}
+
 .text-muted {
   color: #7d97ad;
 }
@@ -17,7 +26,8 @@ body {
 }
 
 .logo-title {
-
+  /*display: */
+  max-width: 50%;
 }
 
 .title-line {
